@@ -1,6 +1,6 @@
 {
   "name": "@nwx/chart",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/neekware/nwx-chart.git"
@@ -9,7 +9,7 @@
     "ng",
     "angular",
     "chart",
-    "navigation"
+    "charts"
   ],
   "author": "Val Neekman",
   "contributors": [],
