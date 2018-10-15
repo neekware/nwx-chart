@@ -12,6 +12,7 @@ import { ChartModule } from 'pkgs/chart';
 import { AppComponent } from './app.component';
 
 const AppEnv: AppCfg = {
+  version: '1.0.0',
   appName: '@nwx/chart',
   production: false
 };

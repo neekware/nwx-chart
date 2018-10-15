@@ -2,6 +2,7 @@ import { AppCfg, TargetPlatform, HttpMethod } from '@nwx/cfg';
 import { LogLevels } from '@nwx/logger';
 
 export const environment: AppCfg = {
+  version: '0.0.1',
   // app name
   appName: '@nwx/chart',
   // target (browser, mobile, desktop)
@@ -11,5 +12,5 @@ export const environment: AppCfg = {
   log: {
     // log level (application-wide)
     level: LogLevels.debug
-  },
+  }
 };

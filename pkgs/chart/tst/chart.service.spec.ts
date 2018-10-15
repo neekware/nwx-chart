@@ -19,10 +19,7 @@ describe('ChartService', () => {
     });
   });
 
-  it(
-    'should be created',
-    inject([ChartService], (service: ChartService) => {
-      expect(service).toBeTruthy();
-    })
-  );
+  it('should be created', inject([ChartService], (service: ChartService) => {
+    expect(service).toBeTruthy();
+  }));
 });
