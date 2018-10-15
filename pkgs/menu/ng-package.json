@@ -1,0 +1,9 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../builds/nwx-chart",
+  "lib": {
+    "flatModuleFile": "nwx-chart",
+    "entryFile": "index.ts",
+    "umdModuleIds": {}
+  }
+}

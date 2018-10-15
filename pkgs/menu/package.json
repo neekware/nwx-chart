@@ -1,0 +1,7 @@
+{
+  "name": "@nwx/chart",
+  "description": "A simple chart utility module for Angular applications",
+  "peerDependencies": {
+    "@angular/core": "^6.0.0"
+  }
+}
