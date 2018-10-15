@@ -14,7 +14,8 @@ import { ChartService } from '../src/chart.service';
 describe('ChartService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [ChartModule]
+      imports: [ChartModule],
+      providers: [ChartService]
     });
   });
 
