@@ -27,7 +27,7 @@ export class BaseChartComponent implements OnInit {
   @Input()
   width;
   @Input()
-  height = false;
+  height;
   @Input()
   data: any;
 
