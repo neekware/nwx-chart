@@ -8,6 +8,10 @@
 
 import { NgModule } from '@angular/core';
 import { ChartService } from './chart.service';
+import { BaseChartComponent } from './base-chart/base-chart.component';
 
-@NgModule({})
+@NgModule({
+  declarations: [BaseChartComponent],
+  exports: [BaseChartComponent]
+})
 export class ChartModule {}

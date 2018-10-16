@@ -10,9 +10,11 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.eol": "\n",
+
+  "html.format.indentInnerHtml": true,
   "html.format.endWithNewline": true,
   "html.format.preserveNewLines": true,
-  "html.format.wrapAttributes": "force-aligned",
+  "html.format.wrapAttributes": "force",
   "html.autoClosingTags": false,
 
   "emmet.triggerExpansionOnTab": true,

@@ -7,8 +7,12 @@
       "root": "",
       "sourceRoot": "apps/web/src",
       "projectType": "application",
-      "prefix": "app",
-      "schematics": {},
+      "prefix": "nwx",
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -19,7 +23,7 @@
             "polyfills": "apps/web/src/polyfills.ts",
             "tsConfig": "apps/web/src/tsconfig.app.json",
             "assets": ["apps/web/src/favicon.ico", "apps/web/src/assets"],
-            "styles": ["apps/web/src/styles.css"],
+            "styles": ["apps/web/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -66,7 +70,7 @@
             "polyfills": "apps/web/src/polyfills.ts",
             "tsConfig": "apps/web/src/tsconfig.spec.json",
             "karmaConfig": "apps/web/src/karma.conf.js",
-            "styles": ["apps/web/src/styles.css"],
+            "styles": ["apps/web/src/styles.scss"],
             "scripts": [],
             "assets": ["apps/web/src/favicon.ico", "apps/web/src/assets"]
           }
@@ -129,10 +133,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "pkgs/chart/tsconfig.lib.json",
-              "pkgs/chart/tsconfig.spec.json"
-            ],
+            "tsConfig": ["pkgs/chart/tsconfig.lib.json", "pkgs/chart/tsconfig.spec.json"],
             "exclude": ["**/node_modules/**"]
           }
         }
